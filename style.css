@@ -4,5 +4,25 @@ body{
 .submit-area{
     margin-top: 50px;
     padding: 40px;
+    border-radius: 10px;
     box-shadow: 5px 5px 10px gray;
+}
+#transaction-area{
+    display: none;
+}
+.status{
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px gray;
+    color: white;
+}
+.deposit{
+    background-image: linear-gradient(90deg,  #8471d8, #3720a0);
+}
+.withdraw{
+    background-image: linear-gradient(90deg, #d652c0, #aa298e);
+}
+.balance{
+    background-image: linear-gradient(90deg, #c1c94f, #81801f);
 }
